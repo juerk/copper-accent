@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
   <script src="./script.js"></script>
-
+  <script src="https://kit.fontawesome.com/d572042874.js" crossorigin="anonymous"></script>
   <title>Document</title>
 </head>
 <body>
@@ -66,43 +66,36 @@
   <div id="section5">
     <h1>Contact</h1>
     <div class="contactcontainer">
-<!--       
-      <div class="leftcontainer">
-        <h4>Copper Accent, LLC</h4>
-        <h4>Kurt Wuerker - Owner</h4>
-        <h4>262-914-6158</h4>
-        <h4>Sales.copperaccent@gmail.com</h4>
-        <div><img src="./img/5879.png" alt=""></div>
-      </div> -->
-
-      <div class="rightcontainer">
-        <form class="formcontainer" action="https://formsubmit.co/wuerkerrs06@gmail.com" method="POST">
-          <div id="useremail">
-            <span>email</span> 
-            <br>
-            <input  type="email" name="email" placeholder="Email Address" required>
+      <form class="formcontainer" action="https://formsubmit.co/wuerkerrs06@gmail.com" method="POST">
+        <div class="row">
+          <div class="input-group">
+            <input type="text" name="Name" id="name" required>
+            <label for="name"><i class="fa-regular fa-user"></i> Name</label>
           </div>
-          <div id="username">
-            <span>name</span>
-            <br>
-            <input type="text" name="name" placeholder="Name" required>
+          <div class="input-group">
+            <input type="email" name="Contact Email" id="email" required>
+            <label for="email"><i class="fa-regular fa-envelope"></i> Email</label>
           </div>
-          <div  id="subject">
-            <span>Subject</span>
-            <br>
-            <input type="text" placeholder="Subject" required>
-          </div>
-          <div id="body">
-            <span>Body</span>
-            <br>
-            <input  type="text"  placeholder="Type your message here!" required>
-          </div>
-          <button id="submit" type="submit">Send message</button>
-          <div id="kurtimage">
-            <img src="./img/5879.png" alt="">
-          </div>
-          <input type="hidden" name="_subject" value="New email!">
-        </form>
+        </div>
+        <div class="input-group">
+          <input type="text" name="Subject" id="number" required>
+          <label for="Topic"><i class="fa-regular fa-comment"></i> Topic</label>
+        </div>
+        <div class="input-group">
+          <textarea id="message" name="Body" rows="8" required></textarea>
+          <label for="message"><i class="fa-regular fa-comments"></i> Message</label>
+        </div>
+        <button type="submit">Send Message<i class="fa-solid fa-paper-plane"></i></button>
+        <input type="hidden" name="_subject" value="New email!">
+      </form>
+      <div class="contactcard">
+        <img src="./img/5879.png" alt="">
+        <div class="contactinfo">
+          <h4>Copper Accent, LLC</h4>
+          <h4>Kurt Wuerker - Owner</h4>
+          <h4>262-914-6158</h4>
+          <h4>Sales.copperaccent@gmail.com</h4>
+        </div>
       </div>
     </div>
 
@@ -117,3 +110,7 @@
 
 </body>
 </html>
+
+
+
+
