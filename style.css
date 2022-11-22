@@ -346,7 +346,7 @@ footer{
 
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 550px) {
   body {
     background-color: #336666;
   }
@@ -359,9 +359,11 @@ footer{
     justify-content: center;
   }
   .gallerycontainer {
+    width: 100%;
     display: grid;
     justify-content: center;
-    grid-template-columns: 180px 180px;
+    /* grid-template-columns: 180px 180px; */
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 90px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px;
   }
 
@@ -611,7 +613,7 @@ footer{
   }
 }
 
-@media only screen and (min-width: 401px) {
+@media only screen and (min-width: 551px) {
   #section2 {
     background-image: url(img/ca-bg2.png);
     background-repeat: no-repeat;
@@ -879,6 +881,9 @@ footer{
     justify-content: space-around;
   }
 }
+
+
+
 
 @media only screen and (min-width: 1000px) {
   #section2 {
