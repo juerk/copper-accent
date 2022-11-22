@@ -347,6 +347,9 @@ footer{
 
 
 @media only screen and (max-width: 400px) {
+  body {
+    background-color: #336666;
+  }
   #section2 {
     background-image: url(img/ca-bg2.png);
     background-repeat: no-repeat;
@@ -359,8 +362,7 @@ footer{
     display: grid;
     justify-content: center;
     grid-template-columns: 180px 180px;
-    grid-template-rows: repeat(12, 180px);
-
+    grid-template-rows: 90px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px 180px;
   }
 
   .gallerycontainer div {
@@ -408,7 +410,6 @@ footer{
     height: 80px;
     grid-column: span 2;
     text-align: center;
-
   }
   .galleryheader h1 {
     letter-spacing: 1px;
@@ -464,7 +465,7 @@ footer{
 
   #pricklypear {
     grid-column: span 1;
-    grid-row: span 2;
+
   }
   
   
