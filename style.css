@@ -736,7 +736,6 @@ footer{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-
   margin-top: 20px;
   margin-bottom: 20px;
   flex-wrap: wrap;
@@ -772,16 +771,19 @@ footer{
 .mission {
   padding-top: 50px;
   text-align: center;
-  width: 90%;
+  width: 80%;
+  color: black;
+  font-size: 20px;
   color: black;
 }
 
 
 .kurtintro {
-  padding-top: 60px;
+
   width: 80%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 .intro {
@@ -795,10 +797,14 @@ footer{
   width: 100%;
   max-width: 700px;
   height: 80%;
-  max-height: 400px;
+  
 }
 .intro span {
   text-align: center;
+  position: relative;
+  bottom: 20px;
+  max-width: 700px;
+  background-color: #D9D4CC;
 }
 
 .began {
