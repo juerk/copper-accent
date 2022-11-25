@@ -480,6 +480,8 @@ nav a:hover {
   margin-top: 10px;
   margin-bottom: 20px;
   font-style: italic;
+  border-top: 1px black solid;
+  border-bottom: 1px solid black;
 }
 .featured {
   display: flex;
@@ -515,6 +517,8 @@ nav a:hover {
   font-size: 40px;
   background-color: #D9D4CC;
   width: 100%;
+  border-top: 1px black solid;
+  border-bottom: 1px solid black;
 }
 .quickabout {
   display: flex;
@@ -609,7 +613,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #D9D4CC;
+  background-color: #F2955E;
 
 }
 #purchase h1 {
@@ -618,6 +622,8 @@ nav a:hover {
   background-color: #D9D4CC;
   width: 100%;
   margin-bottom: 10px;
+  border-top: 1px black solid;
+  border-bottom: 1px solid black;
 }
 .purchaseinfo {
   width: 100%;
@@ -638,7 +644,7 @@ nav a:hover {
 
 #faq {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   text-align: center;
   background-color: #F2955E;
   font-size: 30px;
